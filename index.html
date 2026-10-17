@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jack实验室 · 个人主页</title>
+  <meta name="description" content="Jack实验室的个人主页：IT、计算机教学与 AI 工具分享，专注效率与自动化。" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark"></span>Jack实验室
+      </a>
+      <nav class="nav-links">
+        <a href="#about">关于</a>
+        <a href="#writing">文章</a>
+        <a href="#gallery">影像</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO：徽章 + 名字 + 简介 + 按钮 -->
+    <section class="hero wrap">
+      <span class="badge">AI · 效率 · 自动化</span>
+      <h1>Jack实验室</h1>
+      <p class="lead">
+        IT 从业者、极客计算机老师，也是 AI 重度使用者。专注成长干货与工具分享，
+        研究任务与学习的自动化，重新定义个人效率，把简单留给自己。
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#writing">看文章</a>
+        <a class="btn btn-ghost" href="#contact">联系我</a>
+      </div>
+    </section>
+
+    <!-- 关于：三张小卡片 -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2 class="section-title">关于</h2>
+        <div class="about-grid">
+          <div class="card">
+            <span class="card-icon"></span>
+            <span class="card-label">是谁</span>
+            <p>一名 IT 从业者，也是带点极客味的计算机老师，日常工作里重度依赖 AI。喜欢把复杂工具玩明白，再讲给普通人听。</p>
+          </div>
+          <div class="card">
+            <span class="card-icon"></span>
+            <span class="card-label">做什么</span>
+            <p>专注成长干货与工具分享，研究任务和学习的自动化；在小红书和微信公众号「Jack实验室」持续输出。</p>
+          </div>
+          <div class="card card-quote">
+            <span class="card-icon"></span>
+            <span class="card-label">信什么</span>
+            <blockquote class="pull-quote">“重新定义个人效率，把简单留给自己。”</blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 文章：带封面的卡片网格 -->
+    <section id="writing" class="section section-alt">
+      <div class="wrap">
+        <h2 class="section-title">文章</h2>
+        <p class="section-intro">把实践过的工具与方法，写成普通人也能上手的笔记。</p>
+        <div class="card-grid">
+          <a class="article-card" href="#">
+            <div class="thumb">
+              <img src="images/cover-efficiency.png" alt="AI 整理会议纪要封面" />
+              <span class="tag tag-new">NEW</span>
+            </div>
+            <div class="article-body">
+              <span class="pill">效率</span>
+              <h3>我用 AI 整理了一周会议纪要，省下 5 小时</h3>
+              <p class="excerpt">不写代码，也能让 AI 帮你把录音和笔记，变成清晰的摘要与待办。</p>
+              <span class="meta">2026.07</span>
+            </div>
+          </a>
+          <a class="article-card" href="#">
+            <div class="thumb">
+              <img src="images/cover-tools.png" alt="三个 AI 工具封面" />
+              <span class="tag-hot">热</span>
+            </div>
+            <div class="article-body">
+              <span class="pill">工具</span>
+              <h3>三个普通人马上能用的 AI 工具，今天就能上手</h3>
+              <p class="excerpt">不用下载、不用注册复杂账号，打开就能用，附我的真实使用心得。</p>
+              <span class="meta">2026.06</span>
+            </div>
+          </a>
+          <a class="article-card" href="#">
+            <div class="thumb">
+              <img src="images/cover-automation.png" alt="任务自动化封面" />
+            </div>
+            <div class="article-body">
+              <span class="pill">自动化</span>
+              <h3>把重复的事交给脚本：我的任务自动化入门清单</h3>
+              <p class="excerpt">从文件整理到定时提醒，几件小而确定的事，先让机器替你跑起来。</p>
+              <span class="meta">2026.05</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 影像：图片陈列 -->
+    <section id="gallery" class="section">
+      <div class="wrap">
+        <h2 class="section-title">影像</h2>
+        <p class="section-intro">放一些工作与生活中的影像，或你用 AI 做出来的小作品。替换方式：把 <code>.photo-img</code> 这个占位块换成 <code>&lt;img class="photo-img" src="photo1.jpg" alt="" /&gt;</code>。</p>
+        <div class="gallery">
+          <figure class="photo">
+            <div class="photo-img">
+              <img src="images/gallery-1-desk.png" alt="我的工作台" />
+            </div>
+            <figcaption>我的工作台</figcaption>
+          </figure>
+          <figure class="photo">
+            <div class="photo-img">
+              <img src="images/gallery-2-aiart.png" alt="AI 生成的插画" />
+            </div>
+            <figcaption>AI 生成的插画</figcaption>
+          </figure>
+          <figure class="photo">
+            <div class="photo-img">
+              <img src="images/gallery-3-sharing.png" alt="一次线下分享" />
+            </div>
+            <figcaption>一次线下分享</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 引文装饰带 -->
+    <section class="quote-band">
+      <blockquote>“网站不必热闹，能把一件事讲清楚，就值得被看见。”</blockquote>
+      <cite>—— Jack实验室</cite>
+    </section>
+
+    <!-- 联系：公众号卡片 + 邮箱卡片 -->
+    <section id="contact" class="section section-alt">
+      <div class="wrap">
+        <h2 class="section-title">联系</h2>
+        <div class="contact-grid">
+          <div class="card">
+            <span class="card-label">公众号 / 小红书</span>
+            <p>微信公众号：<strong>Jack实验室</strong></p>
+            <p class="muted">小红书：搜索 <strong>Jack实验室</strong></p>
+            <div class="qr">
+              <p class="qr-note">把二维码命名为 <code>qr.png</code> 放在同目录，并把下面的注释去掉即可显示。</p>
+              <!-- <img src="qr.png" alt="公众号二维码" width="140" /> -->
+            </div>
+          </div>
+          <div class="card">
+            <span class="card-label">邮箱</span>
+            <p><a class="link" href="mailto:529834597@qq.com">529834597@qq.com</a></p>
+            <p class="muted">也欢迎在公众号或小红书后台留言，我一般都会看。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><span class="brand-mark small"></span> © 2026 Jack实验室 · 用安静的方式，记录值得记录的事</p>
+  </footer>
+</body>
+</html>
